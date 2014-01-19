@@ -1,7 +1,7 @@
 /* Adjust keyboard height and weight keeping a 3:1 ratio */
 
 #keyboard {
-    height                  : 200px; /* change as you like */
+    height                  : 250px; /* change as you like */
     width                   : 600px; /* change as you like */
     font-size               : 1em;   /* change accordingly */
     background-color        : #d5d9dc;
@@ -15,9 +15,13 @@
 }
 
 .keyboard-row {
-    height                  : 25%;
+    height                  : 20%;
     margin                  : 0 auto;
     text-align              : center;
+}
+
+.keyboard-row-left {
+    text-align              : left;
 }
 
 .keyboard-key {
@@ -35,11 +39,23 @@
     padding                 : 0.05% 1%;
     text-align              : center;
     text-transform          : uppercase;
-    vertical-align          : middle;
-    width                   : 4.74%;
+    vertical-align          : top;
+    width                   : 4.3%;
 }
 
 .keyboard-key-2rows {
     line-height             : 1.5em;
     font-size               : smaller;
+}
+
+.keyboard-key-space {
+    width              : 34%;
+}
+
+.keyboard-key-tab {
+    width              : 7.11%;
+}
+
+.keyboard-key-return {
+    height             : 180%;
 }
